@@ -1,1 +1,4 @@
+# If you are building a GitHub project page then use these settings:
 theme: jekyll-theme-cayman
+title: Learning From Networks
+description: 'Algorithms, Theory, & Applications'

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+     })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+     
+     ga('create', 'UA-59733393-1', 'auto');
+     ga('send', 'pageview');
+     
+    </script>
+    <meta charset="UTF-8">
+
+{% seo %}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  </head>
+  <body>
+
+    <header class="page-header" role="banner">
+      <h1 style="margin-top:-25px;" class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+      <h2 style="margin-bottom:-5px;" class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+      <h2 style="margin-bottom:-25px;" class="project-tagline">2019 SIGKDD - Tutorial, Aug 4, 2019, Anchorage</h2>
+    </header>
+
+<main id="content" class="main-content" role="main">
+    <p align="justify"><font color="#03CFFC"><strong>Description</strong></font>: Arguably, every entity in this universe is networked in one way or another. With the prevalence of network data collected, such as social media and biological networks, learning from networks has become an essential task in many applications. It is well recognized that network data is intricate and large-scale, and analytic tasks on network data become more and more sophisticated. In this tutorial, we systematically review the area of learning from networks, including algorithms, theoretical analysis, and illustrative applications. Starting with a quick recollection of the exciting history of the area, we formulate the core technical problems.  Then, we introduce the fundamental approaches, that is, the feature selection based approaches and the network embedding based approaches.  Next, we extend our discussion to attributed networks, which are popular in practice. Last, we cover the latest hot topic, graph neural based approaches. For each group of approaches, we also survey the associated theoretical analysis and real-world application examples. Our tutorial also inspires a series of open problems and challenges that may lead to future breakthroughs.  The authors are productive and seasoned researchers active in this area who represent a nice combination of academia and industry.</p>
+    <div class="divider line"></div>
+    
+    <h3><font size="4"><font color="#03CFFC"><strong>Tutorial Outline &amp; Slides</strong></font></font></h3>
+    <ol>
+        <li>Motivations</li>
+        <ul class="list square">
+            <li>Ubiquity and importance of networks</li>
+            <li>Challenges of analyzing and learning from networks</li>
+            <li>Traditional ways of network analysis and limitations</li>
+            <li>Recent trends</li>
+        </ul>
+        <li>Learn from Networks with Feature Selection</li>
+        <ul class="list square">
+            <li>Semi-supervised with graph regularization</li>
+            <li>Unsupervised with community analysis</li>
+            <li>Unsupervised with partial-order relations</li>
+        </ul>
+        <li>Network Embedding</li>
+        <ul class="list square">
+            <li>Problem formulation</li>
+            <li>Algorithms</li>
+            <li>Theory</li>
+            <li>Within an open environment </li>
+            <li>Applications</li>
+        </ul>
+        <li>Attributed Network Embedding</li>
+        <ul class="list square">
+            <li>Mining attributed networks with shallow embedding</li>
+            <li>Mining attributed networks with deep embedding</li>
+            <li>Human-centric network analysis</li>
+            <li>Applications</li>
+        </ul>
+        <li>Graph Neural Networks</li>
+        <ul class="list square">
+            <li>Graph neural networks</li>
+            <li>Dynamic &amp; heterogeneous GNN</li>
+            <li>Billion-scale systems, applications, &amp; challenges</li>
+        </ul>
+        <li>Summary</li>
+    </ol>
+    <div class="divider line"></div>
+    
+    <h3><font size="4"><font color="#03CFFC"><strong>Tutors &amp; Contributors</strong></font></font></h3>
+    <ul class="list square">
+    <img src="Xiao.jpg" style="width:150px;height:200px;" align="left" hspace=20><p align="justify"><font size="2">Xiao Huang is a Ph.D. student in the Department of Computer Science &amp; Engineering at Texas A&amp;M University. He received Master's Degree of Science in Electrical Engineering from Illinois Institute of Technology in 2015, and Bachelor's Degree of Science in Engineering from Shanghai Jiao Tong University in 2012. He is now working at the DATA Lab, supervised by Dr. Xia Hu. His research interests lie in network embedding, attributed network analysis, and knowledge graphs &amp; analytics. His work has been accepted by several prestigious conferences and journals including WSDM, KDD, AAAI, SDM, IJCAI, ICDM, and TKDD. He serves as a PC member of EASM 2018 and KDD 2019. He is a session chair of the SDM 2017, and received the Best Poster Runner-up Award in the SDM 2017 Doctoral Forum.</font></p>
+        
+        
+       <img src="Peng.jpg" style="width:150px;height:200px;" align="left" hspace=20><p align="justify"><font size="2">Dr. Peng Cui</font></p>
+           
+       <img src="Yuxiao.jpg" style="width:150px;height:200px;" align="left" hspace=20><p align="justify"><font size="2">Dr. Yuxiao Dong</font></p>
+           
+       <img src="Peng.jpg" style="width:150px;height:200px;" align="left" hspace=20><p align="justify"><font size="2">Jundong Li</font></p>
+           
+       <img src="Peng.jpg" style="width:150px;height:200px;" align="left" hspace=20><p align="justify"><font size="2">Huan Liu</font></p>
+           
+       <img src="Peng.jpg" style="width:150px;height:200px;" align="left" hspace=20><p align="justify"><font size="2">Dr. Le Song</font></p>
+           
+       <img src="Peng.jpg" style="width:150px;height:200px;" align="left" hspace=20><p align="justify"><font size="2">Dr. Jie Tang</font></p>
+        
+       <img src="Peng.jpg" style="width:150px;height:200px;" align="left" hspace=20><p align="justify"><font size="2">Dr. Jian Pei</font></p>
+           
+       <img src="Peng.jpg" style="width:150px;height:200px;" align="left" hspace=20><p align="justify"><font size="2">Dr. Fei Wang</font></p>
+        
+      <img src="Peng.jpg" style="width:150px;height:200px;" align="left" hspace=20><p align="justify"><font size="2">Dr. Hongxia Yang</font></p>
+            
+            <img src="Peng.jpg" style="width:150px;height:200px;" align="left" hspace=20><p align="justify"><font size="2">Dr. Wenwu Zhu</font></p>
+           
+    </ul>
+
+
+      <footer class="site-footer">
+          <font size="-2">
+          <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>. This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
+        </font>
+      </footer>
+    </main>
+  </body>
+</html>
